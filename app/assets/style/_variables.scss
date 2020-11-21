@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+$font-family-base: "Lato", "Helvetica Neue", Arial, sans-serif;
+$font-family-code: "Roboto Mono", monospace;
+
+// ============================================
+// Colors
+// ============================================
+$black: #121212;
+$primary-color: #2A8356;
+$primary-color-light: #CDDDCD;
+$primary-color-pale: #EDF4EE;
+$warning-color: #E3006E;
+
+$gray-light: #707070;
+
+$primary-text-color: $black;
+$secondary-text-color: $primary-color;
+$comment-text-color: $gray-light;
+$primary-bg-color: $primary-color-pale;
+$primary-border-color: $primary-color-light;
+
+// ============================================
+// Font sizes 
+// ============================================
+$font-size-base: 1rem; //16px
+
+$font-size-sm: $font-size-base * 0.875; //14px
+
+$h1-font-size: $font-size-base * 1.5; //24px
+$h2-font-size: $font-size-base * 1.5; //24px
+$h3-font-size: $font-size-base * 1.25; //20px
+$h4-font-size: $font-size-base * 1.125; //8px
+$h5-font-size: $font-size-base; //16px
+$h6-font-size: $font-size-base; //16px
+
+$line-height-base: 1.5;
+$line-height-heading: 1.2;
+
+// ============================================
+// Other variables 
+// ============================================
+$img-src-prefix: "https://hexschool.github.io/webLayoutTraining1st/perfume-week6/";
+$header-height: 56px;

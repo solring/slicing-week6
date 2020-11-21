@@ -1,0 +1,134 @@
+// ------ logo -----
+.logo a{
+    background: url($img-src-prefix + "d’Perfume.png");
+    display: block;
+    // logo img size
+    width: 128px;
+    height: 38px;
+    @include hideText;
+}
+
+.logo-lg a{
+    background: url($img-src-prefix + "d’Perfume@2x.png");
+    display: block;
+    // logo img size
+    width: 256px;
+    height: 76px;
+    @include hideText;
+}
+
+.logo-white a{
+    background: url($img-src-prefix + "d’Perfumewhite.png");
+    display: block;
+    // logo img size
+    width: 128px;
+    height: 38px;
+    @include hideText;
+}
+
+.logo-white-lg a{
+    background: url($img-src-prefix + "d’Perfumewhite@2x.png");
+    display: block;
+    // logo img size
+    width: 256px;
+    height: 76px;
+    @include hideText;
+}
+
+// ----- banner ------
+.banner {
+    background: center / cover no-repeat url($img-src-prefix + "index1.jpg");
+    height: calc(100vh - #{$header-height});
+}
+
+.banner-subscribe {
+    background: center / cover no-repeat url($img-src-prefix + "index10.jpg");
+    height: 600px;
+    padding-top: 312px;
+}
+
+// ----- picture containers -----
+.pic-sqrt-container{
+    @include centered-ratio(1, 1);
+    overflow: hidden;
+    img {
+        position: absolute;
+        left:0;
+        top:0;
+        @include img-cover;
+    }
+}
+
+.pic-product-container {
+    @include centered-ratio(35, 54);
+    overflow: hidden;
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        @include img-cover;
+    }
+
+    @include phone {
+        @include centered-ratio(1, 1);
+    }
+}
+
+.pic-height-520 {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+.pic-cover {
+    @include img-cover;
+}
+
+.pic-soldout {
+    @include withOverlay(0.3);
+    &:after {
+        content: "Sold out";
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 48%;
+    }
+}
+
+// ----- container -----
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-sm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.center-sqrt-container {
+    @include centered-ratio(1, 1);
+}
+
+// ----- customized lists -----
+.assignment-list {
+    width: 40%;
+    .list-group-item {
+        padding: 12px;
+    }
+    h5 {
+        margin-bottom: 0;
+        margin-top: 4px;
+    }
+}
+
+.reply-thread {
+    font-size: 14px;
+    @include list-w-divider(16px);
+}
+
+.form-w-divider-24 {
+    @include list-w-divider(24px);
+}
+
