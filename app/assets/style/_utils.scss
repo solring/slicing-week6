@@ -119,3 +119,12 @@ $properties: (
     justify-content: center; 
     align-items: center;
 }
+
+
+// ----- alignment -----
+.align-icons {
+    span, img, .icon {
+        vertical-align: middle;
+    }
+    line-height: 100%;
+}

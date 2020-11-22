@@ -9,14 +9,17 @@
   ];
  %> 
 
-<nav class="navbar navbar-dark bg-primary navbar-expand-lg">
-  <ul class="navbar-nav flex-row">
-  <% for (var i=0; i<brands.length; i++) { %> 
-   <li class="nav-item">
-      <a href="products.html" class="nav-link">
-        <%- brands[i] -%> 
-      </a>
-    </li>
-  <% } %> 
-  </ul>
+<nav class="navbar navbar-dark bg-primary navbar-expand-lg  d-none d-md-flex">
+  <div class="container">
+    <ul class="navbar-nav flex-row">
+    <% for (var i=0; i<brands.length; i++) { %> 
+    <li class="nav-item">
+        <a href="products.html" class="nav-link">
+          <%- brands[i] -%> 
+        </a>
+      </li>
+    <% } %> 
+    </ul>
+  </div>
+  
 </nav>
