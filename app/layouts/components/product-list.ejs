@@ -1,0 +1,41 @@
+<% 
+  prefix = "https://hexschool.github.io/webLayoutTraining1st/perfume-week6/";
+  images = [
+    "product1.jpg",
+    "product2.jpg",
+    "product3.jpg",
+    "products4.jpg",
+    "products5.jpg",
+    "products1.jpg",
+    "products7.jpg",
+    "products8.jpg",
+    "products10.jpg",
+    "products11.jpg",
+    "products12.jpg",
+    "products3.jpg",
+  ];
+ %> 
+
+
+<div class="container section-lg">
+  <ul class="row list-unstyled list-mb">
+  <% for (var i = 0; i < images.length; i++) { %> 
+    <li class="col-md-3 col-6">
+      <div class="pic-sqrt-container"><a href="product-detail.html"><img src="<%- prefix + images[i] -%>" alt="product 1"></a></div>
+      <h4>Poppy & Barley</h4>
+      <p>Jo Malone</p>
+      <p>NT&#36;1,380</p>
+      <div class="text-primary">
+        <a href="#"><span class="material-icons text-primary">favorite</span></a>
+        <a href="#"><span class="material-icons text-primary">shopping_cart</span></a>
+      </div>
+    </li>
+  <% } %> 
+  </ul>
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item"><a href="#" class="nav-link active">1</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">2</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">3</a></li>
+  </ul>
+</div>

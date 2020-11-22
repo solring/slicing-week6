@@ -3,19 +3,8 @@ $font-family-base: -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans
 // ============================================
 // Colors
 // ============================================
-$black: #121212;
-$primary-color: #2A8356;
-$primary-color-light: #CDDDCD;
-$primary-color-pale: #EDF4EE;
-$warning-color: #E3006E;
-
-$gray-light: #707070;
-
-$primary-text-color: $black;
-$secondary-text-color: $primary-color;
-$comment-text-color: $gray-light;
-$primary-bg-color: $primary-color-pale;
-$primary-border-color: $primary-color-light;
+$black:           #121212;
+$gold:            #916000;
 
 // ============================================
 // Font sizes 
@@ -39,3 +28,33 @@ $line-height-heading: 1.2;
 // ============================================
 $img-src-prefix: "https://hexschool.github.io/webLayoutTraining1st/perfume-week6/";
 $header-height: 56px;
+
+
+
+// ============================================
+// Overrides Bootstrap 
+// ============================================
+
+// Theme Color
+$primary:                       $gold;
+$secondary:                    #E0E0E0;
+
+// Links
+$link-color:                    $black;
+$link-hover-color:              $primary;
+$link-hover-decoration:         none;
+
+// Font sizes
+$h2-font-size:                  $font-size-base * 2.25; //36px
+$h3-font-size:                  $font-size-base * 2; //32px
+$h4-font-size:                  $font-size-base * 1.5;
+
+// Padding
+$headings-margin-bottom:        16px;
+
+$input-btn-padding-x:           1rem;
+$input-btn-padding-y:           .5rem;
+
+// Navbars
+$navbar-dark-brand-color:       #fff; 
+$navbar-dark-color:             #fff; 

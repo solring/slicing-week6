@@ -39,6 +39,10 @@
 .banner {
     background: center / cover no-repeat url($img-src-prefix + "index1.jpg");
     height: calc(100vh - #{$header-height});
+
+    h2 {
+        font-size: 40px;
+    }
     @include phone {
         height: 480px;
     }
@@ -108,9 +112,9 @@ $pic-sizes: (
     &:after {
         content: "Sold out";
         text-align: center;
+        line-height: 100%;
         color: white;
         font-size: 24px;
-        line-height: 24px;
         padding-top: 48%;
     }
 }
@@ -163,4 +167,9 @@ $sections-sm: (
     @include phone {
         @include list-gap(16px);
     }
+}
+
+// ----- customized buttons -----
+.btn.btn-round {
+    border-radius: 30px;
 }
