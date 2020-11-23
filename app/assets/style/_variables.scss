@@ -7,31 +7,6 @@ $black:           #121212;
 $gold:            #916000;
 
 // ============================================
-// Font sizes 
-// ============================================
-$font-size-base: 1rem; //16px
-
-$font-size-sm: $font-size-base * 0.875; //14px
-
-$h1-font-size: $font-size-base * 1.5; //24px
-$h2-font-size: $font-size-base * 1.5; //24px
-$h3-font-size: $font-size-base * 1.25; //20px
-$h4-font-size: $font-size-base * 1.125; //8px
-$h5-font-size: $font-size-base; //16px
-$h6-font-size: $font-size-base; //16px
-
-$line-height-base: 1.5;
-$line-height-heading: 1.2;
-
-// ============================================
-// Other variables 
-// ============================================
-$img-src-prefix: "https://hexschool.github.io/webLayoutTraining1st/perfume-week6/";
-$header-height: 56px;
-
-
-
-// ============================================
 // Overrides Bootstrap 
 // ============================================
 
@@ -45,16 +20,28 @@ $link-hover-color:              $primary;
 $link-hover-decoration:         none;
 
 // Font sizes
-$h2-font-size:                  $font-size-base * 2.25; //36px
+$font-size-base:                1rem;
+$h2-font-size:                  $font-size-base * 2; //32px
 $h3-font-size:                  $font-size-base * 2; //32px
 $h4-font-size:                  $font-size-base * 1.5;
+$font-size-sm:                  $font-size-base * 0.875; //14px
 
 // Padding
-$headings-margin-bottom:        16px;
-
-$input-btn-padding-x:           1rem;
-$input-btn-padding-y:           .5rem;
+$headings-margin-bottom:        1rem;
+$input-btn-font-size-lg:        1rem;
+$input-btn-padding-y-lg:        1rem;
+$input-btn-padding-x-lg:        1.5rem;
+$navbar-padding-x:              8px;
 
 // Navbars
 $navbar-dark-brand-color:       #fff; 
 $navbar-dark-color:             #fff; 
+
+// ============================================
+// Other variables 
+// ============================================
+$logo-width: 128px;
+$logo-height: 38px;
+$img-src-prefix: "https://hexschool.github.io/webLayoutTraining1st/perfume-week6/";
+$header-height: $navbar-padding-x * 2 + $logo-height;
+

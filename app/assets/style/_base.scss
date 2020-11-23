@@ -8,13 +8,7 @@ img {
     box-sizing: border-box;
 }
 
-// force body to fit the size of window dynamically.
-html, body {
-    height: 100%;
-}
-
 body {
-    line-height: $line-height-base;
     font-family: $font-family-base;
 }
 

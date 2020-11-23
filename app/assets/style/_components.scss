@@ -1,39 +1,24 @@
 // ------ logo -----
-.logo a{
-    background: url($img-src-prefix + "d’Perfume.png");
-    display: block;
-    // logo img size
-    width: 128px;
-    height: 38px;
-    @include hideText;
+$variations: (
+    "",
+    "white",
+);
+
+@each $v in $variations {
+    .logo-#{$v}{
+        a {
+            display: block;
+            @include hideText;
+
+            background: url($img-src-prefix + "d’Perfume#{$v}.png");
+            width: $logo-width;
+            height: $logo-height;
+        }
+
+        margin: 0;
+    }
 }
 
-.logo-lg a{
-    background: url($img-src-prefix + "d’Perfume@2x.png");
-    display: block;
-    // logo img size
-    width: 256px;
-    height: 76px;
-    @include hideText;
-}
-
-.logo-white a{
-    background: url($img-src-prefix + "d’Perfumewhite.png");
-    display: block;
-    // logo img size
-    width: 128px;
-    height: 38px;
-    @include hideText;
-}
-
-.logo-white-lg a{
-    background: url($img-src-prefix + "d’Perfumewhite@2x.png");
-    display: block;
-    // logo img size
-    width: 256px;
-    height: 76px;
-    @include hideText;
-}
 
 // ----- banner ------
 .banner {
