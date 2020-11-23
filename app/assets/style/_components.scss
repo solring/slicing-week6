@@ -28,7 +28,7 @@ $variations: (
     h2 {
         font-size: 40px;
     }
-    @include phone {
+    @include media-breakpoint-down(md) {
         height: 480px;
     }
 }
@@ -61,7 +61,7 @@ $variations: (
         @include img-cover;
     }
 
-    @include phone {
+    @include media-breakpoint-down(md) {
         @include centered-ratio(1, 1);
     }
 }
@@ -79,7 +79,7 @@ $pic-sizes: (
         object-fit: cover;
     }
 
-    @include phone {
+    @include media-breakpoint-down(md) {
         .pic-height-#{$h} {
             width: 100%;
             height: #{$h}px;
@@ -124,9 +124,8 @@ $sections-sm: (
     }
 }
 
-
 @each $name, $val in $sections-sm {
-    @include phone {
+    @include media-breakpoint-down(md) {
         .section#{$name} {
             padding-top: $val;
             padding-bottom: $val;
@@ -142,14 +141,14 @@ $sections-sm: (
 
 .list-mb {
     @include list-gap(58px);
-    @include phone {
+    @include media-breakpoint-down(md) {
         @include list-gap(30px);
     }
 }
 
 .list-mb-sm {
     @include list-gap(30px);
-    @include phone {
+    @include media-breakpoint-down(md) {
         @include list-gap(16px);
     }
 }

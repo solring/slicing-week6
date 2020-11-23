@@ -131,26 +131,3 @@
         opacity: 0.7;
     }
 }
-
-@mixin setFontSize($fz-base) {
-    font-size: $fz-base;
-    @include pad {
-        font-size: $fz-base * 0.75;
-    }
-    @include phone {
-        font-size: $fz-base * 0.5;
-    }
-}
-
-// ----- RWD -----
-@mixin pad{
-    @media screen and (max-width:992px) {
-        @content
-    }
-}
-
-@mixin phone{
-    @media screen and (max-width:768px) {
-        @content
-    }
-}
