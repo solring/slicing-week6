@@ -19,6 +19,29 @@ $variations: (
     }
 }
 
+// ----- menu -----
+.menu-collapse {
+    position: absolute;
+    top: $header-height;
+    right: 0;
+    width: 100vw;
+    z-index: 2000; // place it on the top
+}
+
+.menu {
+    flex-direction: column;
+    background: #707070;
+
+    width: 100%;
+    text-align: center;
+    a {
+        border: 1px solid white;
+        color: white;
+        font-size: 20px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
 
 // ----- banner ------
 .banner {

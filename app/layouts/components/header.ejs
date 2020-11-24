@@ -29,21 +29,28 @@
        </ul>
     </div>
     
+    <!-- nav bar for phone screen -->
     <div class="d-md-none d-block">
       <ul class="navbar-nav flex-row">
         <li class="nav-item">
           <a href="#" class="nav-link p-2"><span class="material-icons">shopping_cart</span></a>
         </li>
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link p-2" data-toggle="dropdown">
+        <li class="nav-item">
+          <a href="#" class="nav-link p-2" data-toggle="collapse" data-target="#menuCollapse">
             <span class="material-icons">menu</span>
           </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item">Product</a>
-            <a href="#" class="dropdown-item">Wishlist</a>
-          </div>
         </li>
       </ul>
+
+      <div class="collapse menu-collapse" id="menuCollapse">
+        <ul class="nav menu">
+          <li class="nav-item"><a href="products.html" class="nav-link">Product</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Wishlist</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="login.html" class="nav-link">Log in</a></li>
+        </ul>
+      </div>
     </div>
 
   </div>

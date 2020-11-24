@@ -5,6 +5,8 @@ $font-family-base: -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans
 // ============================================
 $black:           #121212;
 $gold:            #916000;
+$gray-bg:         #707070;
+$gray-text:       #8D8D8D;
 
 // ============================================
 // Overrides Bootstrap 
@@ -43,5 +45,5 @@ $navbar-dark-color:             #fff;
 $logo-width: 128px;
 $logo-height: 38px;
 $img-src-prefix: "https://hexschool.github.io/webLayoutTraining1st/perfume-week6/";
-$header-height: $navbar-padding-x * 2 + $logo-height;
+$header-height: $navbar-padding-x * 2 + $logo-height + 8px;
 
