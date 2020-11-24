@@ -94,13 +94,18 @@ $pic-sizes: (
 
 .pic-soldout {
     @include withOverlay(0.3);
-    &:after {
-        content: "Sold out";
-        text-align: center;
-        line-height: 100%;
+    
+    .label{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+        
         color: white;
         font-size: 24px;
-        padding-top: 48%;
+
+        z-index: 100;
     }
 }
 
