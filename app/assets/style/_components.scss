@@ -64,7 +64,7 @@ $variations: (
 
 // ----- picture containers -----
 .pic-sqrt-container{
-    @include centered-ratio(1, 1);
+    @include fixed-ratio(1, 1);
     overflow: hidden;
     img {
         position: absolute;
@@ -75,7 +75,7 @@ $variations: (
 }
 
 .pic-product-container {
-    @include centered-ratio(35, 54);
+    @include fixed-ratio(35, 54);
     overflow: hidden;
     img {
         position: absolute;
@@ -85,7 +85,7 @@ $variations: (
     }
 
     @include media-breakpoint-down(md) {
-        @include centered-ratio(1, 1);
+        @include fixed-ratio(1, 1);
     }
 }
 
@@ -162,7 +162,7 @@ $sections-sm: (
 }
 
 .center-sqrt-container {
-    @include centered-ratio(1, 1);
+    @include fixed-ratio(1, 1);
 }
 
 // ----- customized lists -----

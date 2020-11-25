@@ -141,7 +141,7 @@ $spacers: map-merge(
     1: ($spacer * .25),
     2: ($spacer * .5),
     3: $spacer,
-    4: ($spacer * 1.5),
+    4: ($spacer * 2),
     5: ($spacer * 3)
   ),
   $spacers
@@ -209,10 +209,10 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
+  sm: 345px,
   md: 720px,
   lg: 960px,
-  xl: 1140px
+  xl: 1110px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");

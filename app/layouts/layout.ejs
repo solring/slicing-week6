@@ -31,5 +31,11 @@
   <%- include('components/subscribe') -%>
 <% } %>
 <%- include('components/footer') -%>
+
+
+<% if (current == "products" || current == "product-detail") { %>
+  <%- include('components/confirmation') -%>
+<% } %>
+
 </body>
 </html>
