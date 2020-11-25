@@ -20,9 +20,24 @@ a {
 }
 
 // BS themes
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .nav-link.active {
     color: $primary;
     text-decoration: underline;
+}
+
+.form-control[readonly] {
+    background: none;
+    border: none;
+    color: $secondary;
+}
+
+.custom-select, .form-control {
+    color: $secondary;
 }
 
 // other effects

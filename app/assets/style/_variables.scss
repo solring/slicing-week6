@@ -14,7 +14,8 @@ $gray-text:       #8D8D8D;
 
 // Theme Color
 $primary:                       $gold;
-$secondary:                    #E0E0E0;
+$secondary:                     $gray-text;
+$light:                         #E0E0E0;
 
 // Links
 $link-color:                    $black;
@@ -33,7 +34,7 @@ $headings-margin-bottom:        1rem;
 $input-btn-font-size-lg:        1rem;
 $input-btn-padding-y-lg:        1rem;
 $input-btn-padding-x-lg:        1.5rem;
-$navbar-padding-x:              8px;
+$navbar-padding-x:              15px;
 
 // Navbars
 $navbar-dark-brand-color:       #fff; 
@@ -45,5 +46,5 @@ $navbar-dark-color:             #fff;
 $logo-width: 128px;
 $logo-height: 38px;
 $img-src-prefix: "https://hexschool.github.io/webLayoutTraining1st/perfume-week6/";
-$header-height: $navbar-padding-x * 2 + $logo-height + 8px;
+$header-height: $navbar-padding-x * 2 + $logo-height;
 
