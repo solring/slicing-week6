@@ -8100,7 +8100,13 @@ a {
   padding-top: 0;
   padding-bottom: 0; }
 
-.nav-link.active {
+.page-item .page-link {
+  border: none; }
+  .page-item .page-link:hover {
+    background: none; }
+
+.page-item.active .page-link {
+  background: none;
   color: #916000;
   text-decoration: underline; }
 

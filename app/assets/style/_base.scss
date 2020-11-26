@@ -29,9 +29,19 @@ a {
     padding-bottom: 0;
 }
 
-.nav-link.active {
-    color: $primary;
-    text-decoration: underline;
+.page-item .page-link {
+    border: none;
+    &:hover {
+        background: none;
+    }
+}
+
+.page-item.active {
+    .page-link {
+        background: none;
+        color: $primary;
+        text-decoration: underline;
+    }
 }
 
 .form-control[readonly] {
