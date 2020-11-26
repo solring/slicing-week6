@@ -1,16 +1,5 @@
 @font-face {
-    font-family: custom-font-test;
-    src: local("Leto"), url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-}
-
-@font-face {
     font-family: custom-font;
-    src: local(-apple-system), local('BlinkMacSystemFont');
+    src: local("SF Pro Text"), url("../fonts/SF-Pro.ttf");
     unicode-range: U+000-5FF;
-}
-
-@font-face {
-    font-family: custom-font;
-    src: local('PingFang TC'), local('微軟正黑體');
-    unicode-range: U+4E00-9FFF;
 }

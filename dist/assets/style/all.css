@@ -51,7 +51,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans-serif;
+  font-family: custom-font, -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -4312,7 +4312,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans-serif;
+  font-family: custom-font, -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4397,7 +4397,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans-serif;
+  font-family: custom-font, -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7223,18 +7223,9 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 @font-face {
-  font-family: custom-font-test;
-  src: local("Leto"), url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"); }
-
-@font-face {
   font-family: custom-font;
-  src: local(-apple-system), local("BlinkMacSystemFont");
+  src: local("SF Pro Text"), url("../fonts/SF-Pro.ttf");
   unicode-range: U+000-5FF; }
-
-@font-face {
-  font-family: custom-font;
-  src: local("PingFang TC"), local("微軟正黑體");
-  unicode-range: U+4E00-9FFF; }
 
 .lh-2 {
   line-height: 2px; }
@@ -8025,7 +8016,7 @@ img {
   box-sizing: border-box; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans-serif; }
+  font-family: custom-font, -apple-system, BlinkMacSystemFont, "PingFang TC", Arial, sans-serif; }
 
 a {
   text-decoration: none; }
