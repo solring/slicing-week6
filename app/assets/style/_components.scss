@@ -184,6 +184,10 @@ $sections-sm: (
     }
 }
 
+.list-mb-xs {
+    @include list-gap(16px);
+}
+
 .account-nav {
     .nav-item.active .nav-link{
         border-bottom: 2px solid $primary;
@@ -193,6 +197,10 @@ $sections-sm: (
         padding: 24px 0 0 0;
         &:hover {
             color: $primary;
+        }
+        @include media-breakpoint-down(md) {
+            padding-top: 0;
+            margin-bottom: 40px;
         }
     }
 }

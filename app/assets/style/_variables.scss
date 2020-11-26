@@ -3,10 +3,11 @@ $font-family-base: custom-font, -apple-system, BlinkMacSystemFont, "PingFang TC"
 // ============================================
 // Colors
 // ============================================
-$black:           #121212;
+$black:           black;
 $gold:            #916000;
 $gray-bg:         #707070;
-$gray-text:       #8D8D8D;
+$gray-text:       #848484;
+$gray-form:       #818A91;
 
 // ============================================
 // Overrides Bootstrap 
@@ -29,7 +30,7 @@ $h2-font-size:                  $font-size-base * 2; //32px
 $h3-font-size:                  $font-size-base * 2; //32px
 $h4-font-size:                  $font-size-base * 1.5; //24px
 $font-size-sm:                  $font-size-base * 0.875; //14px
-$btn-font-size-lg:                  $font-size-base * 1.25; //20px
+$btn-font-size-lg:              $font-size-base * 1.25; //20px
 
 // Padding
 $headings-margin-bottom:        1rem;

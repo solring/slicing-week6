@@ -12,6 +12,10 @@ body {
     font-family: $font-family-base;
 }
 
+h1, h2, h3 {
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
     &:hover {
@@ -33,11 +37,16 @@ a {
 .form-control[readonly] {
     background: none;
     border: none;
-    color: $secondary;
+    color: $gray-form;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
 }
 
 .custom-select, .form-control {
-    color: $secondary;
+    color: $gray-form;
+    padding: 0.5rem 0.5rem;
 }
 
 // other effects
