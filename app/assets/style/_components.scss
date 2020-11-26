@@ -48,8 +48,11 @@ $variations: (
     background: center / cover no-repeat url($img-src-prefix + "index1.jpg");
     height: calc(100vh - #{$header-height});
 
+    color: white;
+
     h2 {
         font-size: 40px;
+        font-weight: bold;
     }
     @include media-breakpoint-down(md) {
         height: 480px;
