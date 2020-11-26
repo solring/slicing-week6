@@ -120,6 +120,17 @@ $properties: (
     align-items: center;
 }
 
+@for $i from 1 through 10 {
+    .order-#{$i} {
+        order: $i;
+    }
+    @include media-breakpoint-up(md) {
+        .order-md-#{$i} {
+            order: $i;
+        }
+    }
+}
+
 
 // ----- alignment -----
 .align-icons {

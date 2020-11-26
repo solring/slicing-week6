@@ -8002,6 +8002,76 @@ a.text-dark:hover, a.text-dark:focus {
   justify-content: center;
   align-items: center; }
 
+.order-1 {
+  order: 1; }
+
+@media (min-width: 768px) {
+  .order-md-1 {
+    order: 1; } }
+
+.order-2 {
+  order: 2; }
+
+@media (min-width: 768px) {
+  .order-md-2 {
+    order: 2; } }
+
+.order-3 {
+  order: 3; }
+
+@media (min-width: 768px) {
+  .order-md-3 {
+    order: 3; } }
+
+.order-4 {
+  order: 4; }
+
+@media (min-width: 768px) {
+  .order-md-4 {
+    order: 4; } }
+
+.order-5 {
+  order: 5; }
+
+@media (min-width: 768px) {
+  .order-md-5 {
+    order: 5; } }
+
+.order-6 {
+  order: 6; }
+
+@media (min-width: 768px) {
+  .order-md-6 {
+    order: 6; } }
+
+.order-7 {
+  order: 7; }
+
+@media (min-width: 768px) {
+  .order-md-7 {
+    order: 7; } }
+
+.order-8 {
+  order: 8; }
+
+@media (min-width: 768px) {
+  .order-md-8 {
+    order: 8; } }
+
+.order-9 {
+  order: 9; }
+
+@media (min-width: 768px) {
+  .order-md-9 {
+    order: 9; } }
+
+.order-10 {
+  order: 10; }
+
+@media (min-width: 768px) {
+  .order-md-10 {
+    order: 10; } }
+
 .align-icons {
   line-height: 100%; }
   .align-icons span, .align-icons img, .align-icons .icon {
