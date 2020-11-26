@@ -3,11 +3,12 @@ $font-family-base: custom-font, -apple-system, BlinkMacSystemFont, "PingFang TC"
 // ============================================
 // Colors
 // ============================================
-$black:           black;
+$dark:            #000000;
 $gold:            #916000;
 $gray-bg:         #707070;
 $gray-text:       #848484;
 $gray-form:       #818A91;
+$gray-muted:      #A5A5A5;
 
 // ============================================
 // Overrides Bootstrap 
@@ -15,12 +16,13 @@ $gray-form:       #818A91;
 
 // Theme Color
 $primary:                       $gold;
-$secondary:                     $gray-text;
+$secondary:                     $gray-form;
 $light:                         #E0E0E0;
 $info:                          white;
+$text-muted:                    $gray-muted;
 
 // Links
-$link-color:                    $black;
+$link-color:                    $dark;
 $link-hover-color:              $primary;
 $link-hover-decoration:         none;
 

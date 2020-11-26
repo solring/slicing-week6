@@ -77,7 +77,7 @@ current: account
       </li>
       <li class="row no-gutters">
         <div class="col-12">
-          <span class="small">新戶輸入邀請碼即可獲贈紅利點數1000點</span>
+          <small class="form-text text-muted">新戶輸入邀請碼即可獲贈紅利點數1000點</small>
         </div>
       </li>
     </ul>
@@ -87,7 +87,7 @@ current: account
 
       <!-- Form 1-->
       <form class="mb-5" action="#" method="post">
-        <h6 class="border-bottom border-dark text-black pb-2">個人資料修改</h6>
+        <h6 class="border-bottom border-dark text-dark pb-2">個人資料修改</h6>
         <ul class="list-unstyled">
 
           <li class="form-group row no-gutters">
@@ -108,7 +108,7 @@ current: account
             <label for="gender" class="col-3 col-form-label">會員性別</label>
             <div class="col-md-8 col-9">
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-4">
                   <select class="custom-select" id="gender" name="gender">
                     <option value="male">男</option>
                     <option value="female">女</option>
@@ -165,17 +165,14 @@ current: account
                     <option value="新興區">新興區</option>
                   </select>
                 </div>
-                <div class="col-12">
+                <div class="col-12 mb-2">
                   <input type="text" class="form-control" id="addressContactDetail" name="addressContactDetail" placeholder="請輸入地址">
                 </div>
+                <div class="col-12">
+                  <input type="checkbox" class="form-check-input" name="subscribe" id="subscribeCheck" value="">
+                  <label for="subscribeCheck" class="form-check-label">我願意收到最新優惠情報</label>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="form-group row no-gutters">
-            <div class="col-3"></div>
-            <div class="col-md-8 col-9">
-              <input type="checkbox" class="form-check-input" name="subscribe" id="subscribeCheck" value="">
-              <label for="subscribeCheck" class="form-check-label">我願意收到最新優惠情報</label>
             </div>
           </li>
           <li class="form-group row no-gutters">
@@ -225,7 +222,7 @@ current: account
 
       <!-- Form 2 -->
       <form class="mb-3" action="#" method="post">
-        <h6 class="border-bottom border-dark text-black pb-2">修改密碼</h6>
+        <h6 class="border-bottom border-dark text-dark pb-2">修改密碼</h6>
         <ul class="list-unstyled">
           <li class="form-group row no-gutters">
             <label for="oldPassword" class="col-3 col-form-label">舊密碼</label>

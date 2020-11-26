@@ -49,6 +49,10 @@ a {
     padding: 0.5rem 0.5rem;
 }
 
+.text-muted {
+    color: $gray-muted;
+}
+
 // other effects
 a img {
     &:hover {
