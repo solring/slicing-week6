@@ -16,6 +16,13 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+// use self-defined rfs
+@include media-breakpoint-down(md) {
+    h4 {
+        font-size: 20px;
+    }
+}
+
 a {
     text-decoration: none;
     &:hover {

@@ -8091,6 +8091,10 @@ body {
 h1, h2, h3 {
   font-weight: bold; }
 
+@media (max-width: 991.98px) {
+  h4 {
+    font-size: 20px; } }
+
 a {
   text-decoration: none; }
   a:hover {
@@ -8184,6 +8188,9 @@ a img:hover {
   .banner h2 {
     font-size: 40px;
     font-weight: bold; }
+    @media (max-width: 991.98px) {
+      .banner h2 {
+        font-size: 32px; } }
   @media (max-width: 991.98px) {
     .banner {
       height: 480px; } }

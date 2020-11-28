@@ -53,6 +53,9 @@ $variations: (
     h2 {
         font-size: 40px;
         font-weight: bold;
+        @include media-breakpoint-down(md) {
+            font-size: 32px;
+        }
     }
     @include media-breakpoint-down(md) {
         height: 480px;
