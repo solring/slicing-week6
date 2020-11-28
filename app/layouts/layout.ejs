@@ -17,7 +17,7 @@
 <%- include('components/header') -%>
 
 
-<% if (current == "products" || current == "product-detail" || current == "account") { %>
+<% if (current == "products" || current == "product-detail" || current == "account" || current == "login") { %>
   <%- include('components/product-nav') -%>
 <% } %>
 
@@ -37,5 +37,15 @@
   <%- include('components/confirmation') -%>
 <% } %>
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+  delay: 0,
+  duration: 800,
+  once: false,
+  offset: 150,
+ });
+</script>
 </body>
 </html>

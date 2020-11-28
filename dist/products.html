@@ -125,7 +125,7 @@
 
 
 <div class="container section-lg">
-  <ul class="row list-unstyled list-mb">
+  <ul class="row list-unstyled list-mb" data-aos="fade-up" >
    
     <li class="col-md-3 col-6">
       <div class="pic-sqrt-container"><a href="product-detail.html"><img src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product1.jpg" alt="product 1"></a></div>
@@ -276,7 +276,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-md-4 col-12">
+      <div class="col-md-4 col-12" data-aos="fade-up">
 
         <h3>記得<br>訂閱以獲取更多資訊！</h3>
         <form class="input-group" action="#" method="post">
@@ -341,5 +341,15 @@
   </div>
 </div>
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+  delay: 0,
+  duration: 800,
+  once: false,
+  offset: 150,
+ });
+</script>
 </body>
 </html>

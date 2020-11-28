@@ -126,12 +126,12 @@
 <div class="container section-lg">
   <div class="row position-relative">
 
-    <div class="col-md-8">
+    <div class="col-md-8" data-aos="fade-down">
       <img class="mb-md-4" src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product1.jpg" alt="">
     </div>
 
     <!-- description -->
-    <div class="col-md-4 col-12 description">
+    <div class="col-md-4 col-12 description" data-aos="fade-up">
       <h2>CHANEL N°5</h2>
       <h5 class="mb-4">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</h5>
       <h5 class="mb-3">NT$4,980</h5>
@@ -166,7 +166,7 @@
     </div>
 
     <!-- other pictures-->
-    <div class="col-md-8 col-12">
+    <div class="col-md-8 col-12" data-aos="fade-up" data-aos-once="true">
       <ul class="list-unstyled row list-mb-sm">
         <li class="col-12 col-md-6">
           <img src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product2.jpg" alt="product pic 2">
@@ -233,5 +233,15 @@
   </div>
 </div>
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+  delay: 0,
+  duration: 800,
+  once: false,
+  offset: 150,
+ });
+</script>
 </body>
 </html>

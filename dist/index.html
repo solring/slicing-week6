@@ -77,10 +77,10 @@
 
 
 
-<div class="banner">
+<div class="banner fade-in">
   <div class="container h-100">
     <div class="row justify-content-end h-100">
-      <div class="col-md-5 col-12 d-flex d-flex flex-column justify-content-center h-100">
+      <div class="col-md-5 col-12 d-flex d-flex flex-column justify-content-center h-100" data-aos="fade-up" data-aos-delay="200">
         <h2>Perfume your day</h2>
         <h4>A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it.</h4>
         <button type="button" class="btn btn-outline-info btn-lg btn-round">Shop now</button>
@@ -92,7 +92,7 @@
 <div class="section">
     <ul class="container">
       <!-- product 1 -->
-      <li class="row no-gutters flex-md-row-reverse">
+      <li class="row no-gutters flex-md-row-reverse" data-aos="fade-right" data-aos-anchor-placement="top-center">
         <div class="col-md-6 col-12">
           <div class="pic-sqrt-container mb-2 mb-md-0">
             <img src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index2.jpg" alt="" class="pic-product-lg">
@@ -115,7 +115,7 @@
       </li>
 
       <!-- product 2 -->
-      <li class="row no-gutters">
+      <li class="row no-gutters" data-aos="fade-left" data-aos-anchor-placement="top-center">
         <div class="col-md-6 col-12">
           <div class="pic-sqrt-container mb-2 mb-md-0">
             <img src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index3.png" alt="" class="pic-product-lg">
@@ -138,7 +138,7 @@
       </li>
 
       <!-- product 3 -->
-      <li class="row no-gutters flex-md-row-reverse">
+      <li class="row no-gutters flex-md-row-reverse" data-aos="fade-right" data-aos-anchor-placement="top-center">
         <div class="col-md-6 col-12">
           <div class="pic-sqrt-container">
             <img src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index4.jpg" alt="" class="pic-product-lg">
@@ -163,7 +163,7 @@
       </li>
 
       <!-- product 4 -->
-      <li class="row no-gutters">
+      <li class="row no-gutters" data-aos="fade-up" data-aos-anchor-placement="top-center">
 
         <div class="col-md-6 col-12">
           <img class="pic-cover" src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index5.jpg" alt="" class="pic-product-lg">
@@ -206,7 +206,7 @@
     </ul>
 </div>
 
-<div class="section-sm bg-light">
+<div class="section-sm bg-light" data-aos="flip-left" data-aos-anchor-placement="top-center">
   <div class="container">
     <ul class="row list-unstyled">
       <li class="col-md-4 col-12">
@@ -240,7 +240,7 @@
 
 <div class="section">
   <div class="container">
-    <div class="row">
+    <div class="row" data-aos="fade-up">
       <div class="col-md-8 col-12">
         <img class="pic-height-520" src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index9.jpg" alt="">
       </div>
@@ -265,7 +265,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-md-4 col-12">
+      <div class="col-md-4 col-12" data-aos="fade-up">
 
         <h3>記得<br>訂閱以獲取更多資訊！</h3>
         <form class="input-group" action="#" method="post">
@@ -311,5 +311,15 @@
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+  delay: 0,
+  duration: 800,
+  once: false,
+  offset: 150,
+ });
+</script>
 </body>
 </html>
